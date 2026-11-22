@@ -1,11 +1,11 @@
 [gd_scene format=4 uid="uid://cjxuhexxnhxc7"]
 
 [ext_resource type="Script" uid="uid://cv0fc4xpvqhld" path="res://scenes/player.gd" id="1_lnu2h"]
-[ext_resource type="Texture2D" uid="uid://kxirhaugllpn" path="res://icon.svg" id="2_lbhrr"]
+[ext_resource type="Texture2D" uid="uid://dryvh4utjrxs0" path="res://SamuraiIdle.png" id="2_lnu2h"]
 [ext_resource type="Texture2D" uid="uid://p50l6n7ckx8g" path="res://Grass texture hack club.png" id="3_iywne"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bjyv4"]
-size = Vector2(81, 59.5)
+size = Vector2(63, 88)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p57ef"]
 texture = ExtResource("3_iywne")
@@ -155,11 +155,12 @@ sources/0 = SubResource("TileSetAtlasSource_p57ef")
 script = ExtResource("1_lnu2h")
 
 [node name="Sprite2D" type="Sprite2D" parent="Node/Player" unique_id=481809974]
-position = Vector2(-1, -4)
-texture = ExtResource("2_lbhrr")
+position = Vector2(-15.999999, 20)
+scale = Vector2(0.09179687, 0.08203125)
+texture = ExtResource("2_lnu2h")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Player" unique_id=1433637616]
-position = Vector2(-7, 23)
+position = Vector2(-15.5, 20)
 shape = SubResource("RectangleShape2D_bjyv4")
 
 [node name="Camera2D" type="Camera2D" parent="Node/Player" unique_id=435082380]
