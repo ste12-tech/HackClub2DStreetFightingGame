@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dusdw7oi0kfbl"]
+
+[ext_resource type="Texture2D" uid="uid://cpqhinnvn1fmo" path="res://assets/sprites/SamuraiIdle.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://776b86runbbq" path="res://scripts/player.gd" id="1_g2els"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pv1n5"]
+size = Vector2(651, 895.5)
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=782689603]
+script = ExtResource("1_g2els")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=297209205]
+position = Vector2(19, -3)
+scale = Vector2(0.9628906, 0.90625)
+texture = ExtResource("1_3vyb7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=524635413]
+position = Vector2(24, 13)
+shape = SubResource("RectangleShape2D_pv1n5")
