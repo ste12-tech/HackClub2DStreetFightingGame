@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://bmnyyshxg44f6" path="res://heart pixel art 254x254.png" id="5_iywne"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bjyv4"]
+<<<<<<< Updated upstream
 size = Vector2(63, 88)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p57ef"]
@@ -188,6 +189,7 @@ scale = Vector2(0.09179687, 0.08203125)
 texture = ExtResource("2_lnu2h")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Player" unique_id=1433637616]
+<<<<<<< Updated upstream
 position = Vector2(-10, 24)
 shape = SubResource("RectangleShape2D_bjyv4")
 
