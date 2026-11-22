@@ -469,10 +469,6 @@ texture = ExtResource("5_iywne")
 position = Vector2(-1541, -853)
 script = ExtResource("1_lnu2h")
 
-[node name="Camera2D" type="Camera2D" parent="Node/1st MC" unique_id=435082380]
-position = Vector2(1416, 760)
-zoom = Vector2(0.245, 0.245)
-
 [node name="CanvasLayer" type="CanvasLayer" parent="Node/1st MC" unique_id=486361168]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node/1st MC" unique_id=2141811258]
@@ -485,6 +481,10 @@ autoplay = "idle"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node/1st MC" unique_id=1936316408]
 position = Vector2(214.5, 245)
 shape = SubResource("RectangleShape2D_pv1n5")
+
+[node name="Camera2D" type="Camera2D" parent="Node/1st MC" unique_id=791902526]
+position = Vector2(400, 865)
+zoom = Vector2(0.245, 0.245)
 
 [node name="Node2" type="Node" parent="." unique_id=601187551]
 
@@ -517,6 +517,10 @@ texture = ExtResource("5_iywne")
 [node name="2nd MC" type="CharacterBody2D" parent="Node2" unique_id=1773299171]
 position = Vector2(891, -198)
 script = ExtResource("4_lbhrr")
+
+[node name="Camera2D" type="Camera2D" parent="Node2/2nd MC" unique_id=435082380]
+position = Vector2(-1016, 105)
+zoom = Vector2(0.245, 0.245)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node2/2nd MC" unique_id=1995492517]
 position = Vector2(-629, 200)
