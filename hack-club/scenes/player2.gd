@@ -1,14 +1,15 @@
 extends CharacterBody2D
-
+#not working
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 var livess = 4
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	
-	if not is_on_floor():
-		velocity += get_gravity() * delta
-	print(global_position)
+	
+		
+	
+	
 	# Kill player if they fall below Y 2000
 	if global_position.y > 2000:
 		var lives = livess - 1
@@ -16,21 +17,25 @@ func _physics_process(delta: float) -> void:
 			position.x= 905.3242
 			position.y= -229.0005
 		if livess == 3:
-			$"../HBoxContainer/HeartPixelArt254x256A".hide()
+			$"../HBoxContainer1/HeartPixelArt254x256A".hide()
 			position.x= 905.3242
 			position.y= -229.0005
 		elif livess == 2:
-			$"../HBoxContainer/HeartPixelArt254x256B".hide()
+			print("triggered")
+			$"../HBoxContainer1/HeartPixelArt254x256B".hide()
 			position.x= 905.3242
 			position.y= -229.0005
 		elif livess == 1:
-			$"../HBoxContainer/HeartPixelArt254x256C".hide()
+			$"../HBoxContainer1/HeartPixelArt254x256C".hide()
 			position.x= 905.3242
 			position.y= -229.0005
 		elif lives == 0:
-			$"../HBoxContainer/HeartPixelArt254x256D".hide()
+			$"../HBoxContainer1/HeartPixelArt254x256D".hide()
 		return
 	# Handle jump.
+	
+	if not is_on_floor():
+		velocity += get_gravity() * delta
 	if Input.is_action_just_pressed("ui_jump2") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 
@@ -41,5 +46,5 @@ func _physics_process(delta: float) -> void:
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
-
+ 
 	move_and_slide()

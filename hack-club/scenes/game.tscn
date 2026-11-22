@@ -445,6 +445,16 @@ offset_top = -427.0
 offset_right = -1685.0
 offset_bottom = -387.0
 
+[node name="HeartPixelArt254x256A" type="Sprite2D" parent="Node/HBoxContainer" unique_id=589047318]
+position = Vector2(-312.11572, -256.11572)
+scale = Vector2(0.18019135, 0.18019135)
+texture = ExtResource("5_iywne")
+
+[node name="HeartPixelArt254x255B" type="Sprite2D" parent="Node/HBoxContainer" unique_id=702001319]
+position = Vector2(-262.11572, -256.11572)
+scale = Vector2(0.18019135, 0.18019135)
+texture = ExtResource("5_iywne")
+
 [node name="HeartPixelArt254x257C" type="Sprite2D" parent="Node/HBoxContainer" unique_id=381711790]
 position = Vector2(-211.11572, -257.11572)
 scale = Vector2(0.18019135, 0.18019135)
@@ -453,16 +463,6 @@ texture = ExtResource("5_iywne")
 [node name="HeartPixelArt254x254D" type="Sprite2D" parent="Node/HBoxContainer" unique_id=438080856]
 position = Vector2(-159.11584, -258.11572)
 scale = Vector2(0.19586618, 0.17224413)
-texture = ExtResource("5_iywne")
-
-[node name="HeartPixelArt254x256A" type="Sprite2D" parent="Node/HBoxContainer" unique_id=589047318]
-position = Vector2(-312.1157, -256.11572)
-scale = Vector2(0.18019135, 0.18019135)
-texture = ExtResource("5_iywne")
-
-[node name="HeartPixelArt254x255B" type="Sprite2D" parent="Node/HBoxContainer" unique_id=702001319]
-position = Vector2(-262.11572, -256.11572)
-scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("5_iywne")
 
 [node name="1st MC" type="CharacterBody2D" parent="Node" unique_id=1306061915]
@@ -475,7 +475,7 @@ script = ExtResource("1_lnu2h")
 position = Vector2(229.00024, 276.00003)
 scale = Vector2(5, 4.478)
 sprite_frames = SubResource("SpriteFrames_u5sy4")
-animation = &"walk"
+animation = &"attack"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node/1st MC" unique_id=1936316408]
@@ -484,28 +484,28 @@ shape = SubResource("RectangleShape2D_pv1n5")
 
 [node name="Node2" type="Node" parent="." unique_id=601187551]
 
-[node name="HBoxContainer" type="HBoxContainer" parent="Node2" unique_id=1113893392]
+[node name="HBoxContainer1" type="HBoxContainer" parent="Node2" unique_id=1113893392]
 offset_left = 1723.0
 offset_top = -444.0
 offset_right = 1763.0
 offset_bottom = -404.0
 
-[node name="HeartPixelArt254x254c" type="Sprite2D" parent="Node2/HBoxContainer" unique_id=1369033225]
-position = Vector2(-531, -269)
-scale = Vector2(0.19586618, 0.17224413)
+[node name="HeartPixelArt254x255a" type="Sprite2D" parent="Node2/HBoxContainer1" unique_id=1258803105]
+position = Vector2(-376, -267)
+scale = Vector2(0.18019137, 0.18019137)
 texture = ExtResource("5_iywne")
 
-[node name="HeartPixelArt254x255a" type="Sprite2D" parent="Node2/HBoxContainer" unique_id=1258803105]
-position = Vector2(-375.99997, -267)
-scale = Vector2(0.18019135, 0.18019135)
-texture = ExtResource("5_iywne")
-
-[node name="HeartPixelArt254x256b" type="Sprite2D" parent="Node2/HBoxContainer" unique_id=332492286]
+[node name="HeartPixelArt254x256b" type="Sprite2D" parent="Node2/HBoxContainer1" unique_id=332492286]
 position = Vector2(-429, -268)
 scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("5_iywne")
 
-[node name="HeartPixelArt254x257c" type="Sprite2D" parent="Node2/HBoxContainer" unique_id=1668166948]
+[node name="HeartPixelArt254x254c" type="Sprite2D" parent="Node2/HBoxContainer1" unique_id=1369033225]
+position = Vector2(-531, -269)
+scale = Vector2(0.19586618, 0.17224413)
+texture = ExtResource("5_iywne")
+
+[node name="HeartPixelArt254x257d" type="Sprite2D" parent="Node2/HBoxContainer1" unique_id=1668166948]
 position = Vector2(-478.99997, -267)
 scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("5_iywne")
@@ -514,7 +514,7 @@ texture = ExtResource("5_iywne")
 position = Vector2(899, -226)
 script = ExtResource("4_lbhrr")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2/2nd MC" unique_id=1995492517]
+[node name="CollisionShape2D1" type="CollisionShape2D" parent="Node2/2nd MC" unique_id=1995492517]
 position = Vector2(-629, 200)
 shape = SubResource("RectangleShape2D_bjyv4")
 
@@ -524,7 +524,7 @@ shape = SubResource("RectangleShape2D_bjyv4")
 position = Vector2(-637, 193.00002)
 scale = Vector2(3.6285713, 4.0571427)
 sprite_frames = SubResource("SpriteFrames_u5sy4")
-animation = &"walk"
+animation = &"attack"
 autoplay = "idle"
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1512792101]
