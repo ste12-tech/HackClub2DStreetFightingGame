@@ -496,22 +496,22 @@ offset_top = -770.0
 offset_right = -1399.0
 offset_bottom = -730.0
 
-[node name="HeartPixelArt254x254" type="Sprite2D" parent="HBoxContainer" unique_id=220199691]
+[node name="HeartPixelArt254x254A" type="Sprite2D" parent="HBoxContainer" unique_id=220199691]
 position = Vector2(-531, -269)
 scale = Vector2(0.19586618, 0.17224413)
 texture = ExtResource("4_dqkch")
 
-[node name="HeartPixelArt254x255" type="Sprite2D" parent="HBoxContainer" unique_id=1111437011]
+[node name="HeartPixelArt254x255D" type="Sprite2D" parent="HBoxContainer" unique_id=1111437011]
 position = Vector2(-375.99997, -267)
 scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("4_dqkch")
 
-[node name="HeartPixelArt254x256" type="Sprite2D" parent="HBoxContainer" unique_id=2039463717]
+[node name="HeartPixelArt254x256C" type="Sprite2D" parent="HBoxContainer" unique_id=2039463717]
 position = Vector2(-429, -268)
 scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("4_dqkch")
 
-[node name="HeartPixelArt254x257" type="Sprite2D" parent="HBoxContainer" unique_id=259602453]
+[node name="HeartPixelArt254x257B" type="Sprite2D" parent="HBoxContainer" unique_id=259602453]
 position = Vector2(-478.99997, -267)
 scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("4_dqkch")

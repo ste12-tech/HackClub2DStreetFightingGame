@@ -440,9 +440,9 @@ sources/0 = SubResource("TileSetAtlasSource_u5sy4")
 [node name="Node" type="Node" parent="." unique_id=1140564547]
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Node" unique_id=137822196]
-offset_left = 1506.0
+offset_left = -1725.0
 offset_top = -427.0
-offset_right = 1546.0
+offset_right = -1685.0
 offset_bottom = -387.0
 
 [node name="HeartPixelArt254x257C" type="Sprite2D" parent="Node/HBoxContainer" unique_id=381711790]
@@ -466,7 +466,7 @@ scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("5_iywne")
 
 [node name="1st MC" type="CharacterBody2D" parent="Node" unique_id=1306061915]
-position = Vector2(-1541, -853)
+position = Vector2(-1565, -909)
 script = ExtResource("1_lnu2h")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="Node/1st MC" unique_id=486361168]
@@ -479,16 +479,16 @@ animation = &"walk"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node/1st MC" unique_id=1936316408]
-position = Vector2(214.5, 245)
+position = Vector2(215, 265)
 shape = SubResource("RectangleShape2D_pv1n5")
 
 [node name="Node2" type="Node" parent="." unique_id=601187551]
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Node2" unique_id=1113893392]
-offset_left = -1508.0
-offset_top = -416.0
-offset_right = -1468.0
-offset_bottom = -376.0
+offset_left = 1723.0
+offset_top = -444.0
+offset_right = 1763.0
+offset_bottom = -404.0
 
 [node name="HeartPixelArt254x254c" type="Sprite2D" parent="Node2/HBoxContainer" unique_id=1369033225]
 position = Vector2(-531, -269)
@@ -511,7 +511,7 @@ scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("5_iywne")
 
 [node name="2nd MC" type="CharacterBody2D" parent="Node2" unique_id=1773299171]
-position = Vector2(891, -198)
+position = Vector2(899, -226)
 script = ExtResource("4_lbhrr")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node2/2nd MC" unique_id=1995492517]
