@@ -2,12 +2,18 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
+var lives = 4 
+
 
 func _physics_process(delta: float) -> void:
 
 	# Kill player if they fall below Y 2000
 	if global_position.y > 2000:
-		queue_free()
+		var lives = lives - 1
+		
+			
+		position.x= -1541.0
+		position.y= -891.5666
 		return
 
 	# Add gravity

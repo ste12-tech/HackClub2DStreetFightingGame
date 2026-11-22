@@ -3,16 +3,15 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
-#@export var spawn_x: float=global_position
-
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
-	print(global_position)
+	
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 	if global_position.y > 2000:
-		queue_free()
+		position.x= 905.3245
+		position.y= -229.0005
 		return
 	# Handle jump.
 	if Input.is_action_just_pressed("ui_jump2") and is_on_floor():
