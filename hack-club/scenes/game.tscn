@@ -446,22 +446,22 @@ offset_right = 1546.0
 offset_bottom = -387.0
 
 [node name="HeartPixelArt254x257C" type="Sprite2D" parent="Node/HBoxContainer" unique_id=381711790]
-position = Vector2(468, -265)
+position = Vector2(-211.11572, -257.11572)
 scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("5_iywne")
 
 [node name="HeartPixelArt254x254D" type="Sprite2D" parent="Node/HBoxContainer" unique_id=438080856]
-position = Vector2(519.99994, -266)
+position = Vector2(-159.11584, -258.11572)
 scale = Vector2(0.19586618, 0.17224413)
 texture = ExtResource("5_iywne")
 
 [node name="HeartPixelArt254x256A" type="Sprite2D" parent="Node/HBoxContainer" unique_id=589047318]
-position = Vector2(367.00003, -264)
+position = Vector2(-312.1157, -256.11572)
 scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("5_iywne")
 
 [node name="HeartPixelArt254x255B" type="Sprite2D" parent="Node/HBoxContainer" unique_id=702001319]
-position = Vector2(417, -264)
+position = Vector2(-262.11572, -256.11572)
 scale = Vector2(0.18019135, 0.18019135)
 texture = ExtResource("5_iywne")
 
