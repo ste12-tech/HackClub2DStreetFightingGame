@@ -9,6 +9,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bjyv4"]
 <<<<<<< Updated upstream
 size = Vector2(63, 88)
+size = Vector2(81, 89.75)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p57ef"]
 texture = ExtResource("3_iywne")
@@ -191,6 +192,7 @@ texture = ExtResource("2_lnu2h")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node/Player" unique_id=1433637616]
 <<<<<<< Updated upstream
 position = Vector2(-10, 24)
+position = Vector2(-1, -16.125)
 shape = SubResource("RectangleShape2D_bjyv4")
 
 [node name="Camera2D" type="Camera2D" parent="Node/Player" unique_id=435082380]
